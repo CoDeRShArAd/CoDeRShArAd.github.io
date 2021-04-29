@@ -1,0 +1,237 @@
+*
+{
+    padding:0 ;
+    margin: 0;
+}
+body{
+    background-image: url(PC.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+section.section1{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div.block-1{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    
+}
+
+
+
+div.block-1 div:first-child{
+    margin-right: 40px;
+}
+
+div.mail a{
+    color: dimgray;
+}
+
+div.mail a:hover{
+    color: firebrick;
+}
+
+div.social-btn a{
+    font-size: 22px;
+    margin: 10px 7px;
+    color: dimgray;
+}
+
+div.social-btn a i:hover{
+    color: red;
+    
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+}
+
+li{
+    display: inline-block;
+}
+
+
+
+.menu-bar{
+    background-color:black;
+    text-align: center;
+}
+.menu-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.menu-bar ul li {
+    width: 120px;
+    margin: 7px;
+    padding: 5px;
+
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.menu-bar ul li:hover,.sec
+{
+    background-color: grey;
+
+    
+}
+
+section.sec2{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    justify-content: space-between;
+}
+
+
+
+section.sec2 div{
+    padding: 20px;
+    border: 1px solid black;
+    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.boxone{
+    background-color:white;
+    color:black;
+    border: white;
+}
+
+.boxtwo{
+    background-color:black;
+    color:white;
+    border: white;
+}
+.boxthree{
+    background-color:white;
+    color:black;
+    border: white;
+}   
+
+#bocone{
+    color:black;
+    text-decoration: none;
+}
+#boctwo{
+    color:white;
+    text-decoration: none;
+}
+#bocthree{
+    color:black;
+    text-decoration: none;
+}
+.boxone :hover{
+    background-color: grey;
+}
+.boxtwo :hover{
+    background-color: grey;
+}
+.boxthree :hover{
+    background-color: grey;
+}
+
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+footer{
+    background: #222;
+    color: #fff;
+    padding: 2px 0;
+    opacity: 80%;
+
+}
+.container{
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+    opacity: 80%;
+}
+
+li{
+    list-style: none;
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+.items{
+    flex-basis: 20%;
+}
+.items .logo{
+    text-transform: capitalize;
+    font-size: 1.4em;
+    color: #b6b6b6;
+}
+.items p{
+    margin: 1.2em 0;
+}
+.social{
+    display: flex;
+}
+.social a{
+    height: 30px;
+    width: 30px;
+    background: #383535;
+    border-radius: 5px;
+    margin:10px 5px;
+    text-align: center;
+}
+.social a i{
+    font-size: 1.3em;
+    line-height: 30px;
+}
+.items h3{
+    position: relative;
+    font-size: 1.3em;
+    margin-bottom: 1rem;
+    color: aliceblue;
+}
+.items h3::after{
+    content:"";
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background: #fff;
+    bottom: -4px;
+    left: 0;
+}
+hr{
+    opacity: .3;
+}
+footer .end{
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+@media (max-width:640px){
+    .items{
+    flex-basis: 80%;
+    margin: auto;
+}
+
+}
+
